@@ -1,0 +1,96 @@
+tml {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+main {
+    width: 100%;
+}
+
+.container-1 {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.14px;
+    line-height: 36px;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.button-logo {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 14.3px 0px 11.31px;
+    width: 147px;
+    cursor: pointer;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    background-color: #000000;
+}
+
+.div-opcoes {
+    width: 50%;
+    display: inline-flex;
+}
+
+.caixa-nav-opções {
+    height: 36px;
+    width: 80%;
+    display: inline-flex;
+}
+
+.navbar-nav-1 {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 10px 0px 11px;
+}
+
+.nav-item {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+.button-logo:hover {
+    color: white;
+    text-decoration: none;
+}
